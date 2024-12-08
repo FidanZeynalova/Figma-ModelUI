@@ -1,0 +1,166 @@
+/* 0-576 */
+@media (min-width: 0px) and (max-width: 576px) {
+  .logo-head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    #head {
+      text-align: center;
+    }
+  }
+  .lists {
+    display: none;
+  }
+  .icon .fa-bars {
+    display: block;
+  }
+  #future #main-text {
+    font-size: 50px !important;
+  }
+  #logos .container .logos {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+
+  #info-text {
+    .cards-wrapper {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+  #elevating-card {
+    .container {
+      width: 100%;
+      margin: 0px auto !important;
+      text-align: center;
+      h2,
+      p {
+        width: 100% !important;
+      }
+      span {
+        margin: 0px auto;
+      }
+    }
+  }
+  #reports .cards-wrapper {
+    grid-template-columns: repeat(1, 1fr) !important;
+    text-align: center;
+  }
+  #unlock-card .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  #footer .card-wrappers {
+    margin: 0px auto;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .end .icons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+/* 576-768 */
+@media (min-width: 576px) and (max-width: 768px) {
+  .logo-head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    #head {
+      text-align: center;
+    }
+  }
+  .lists {
+    display: none;
+  }
+  .icon .fa-bars {
+    display: block;
+  }
+  #logos .container .logos {
+    grid-template-columns: repeat(5, 1fr) !important;
+  }
+  #info-text {
+    .cards-wrapper {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+  #elevating-card {
+    .container {
+      width: 100%;
+      margin: 0px auto !important;
+      text-align: center;
+      h2,
+      p {
+        width: 100% !important;
+      }
+      span {
+        margin: 0px auto;
+      }
+    }
+  }
+  #reports .cards-wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+    text-align: center;
+  }
+  #unlock-card .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  #footer .card-wrappers {
+    margin: 0px auto;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .end .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+/* 768-992 */
+@media (min-width: 768px) and (max-width: 992px) {
+  .lists {
+    display: none;
+  }
+  .icon .fa-bars {
+    display: block;
+  }
+  #logos .container .logos {
+    grid-template-columns: repeat(6, 1fr) !important;
+  }
+  #info-text {
+    .cards-wrapper {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+  #elevating-card {
+    .container {
+      width: 100%;
+      margin: 0px auto !important;
+      text-align: center;
+      h2,
+      p {
+        width: 100% !important;
+      }
+      span {
+        margin: 0px auto;
+      }
+    }
+  }
+  #reports .cards-wrapper {
+    grid-template-columns: repeat(3, 1fr) !important;
+    text-align: center;
+  }
+  #footer .card-wrappers {
+    margin: 0px auto;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+/* 992-1200 */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #footer .card-wrappers {
+    margin: 0px auto;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}

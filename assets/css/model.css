@@ -1,0 +1,414 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  list-style: none;
+}
+#header {
+  .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0px auto;
+    .line {
+      width: 100%;
+      height: 2px;
+      background-color: #f1f1f2;
+      margin: 10px 0;
+    }
+  }
+
+  #head {
+    background-color: #f1f1f2;
+    border: 1px solid #e6e7e9;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 240px;
+  }
+  .header {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    .lists {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 19px;
+        li .fa-angle-down {
+          margin-left: 5px;
+        }
+      }
+    }
+    .btn {
+      button {
+        cursor: pointer;
+        background-color: #eeefef;
+        color: gray;
+        padding: 8px 16px;
+        border-radius: 8px;
+        display: flex;
+        gap: 8px;
+      }
+    }
+    .icon .fa-bars {
+      font-size: 30px;
+      color: black;
+      display: none;
+    }
+  }
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: #f1f1f2;
+    margin: 10px 0;
+  }
+}
+
+main {
+  #future {
+    margin: 50px 0;
+    .container {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0px auto;
+      text-align: center;
+      gap: 30px;
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+        p {
+          color: #582066;
+          font-weight: bold;
+          font-size: 18px;
+        }
+        #lorem {
+          width: 75%;
+          margin: 0px auto;
+          font-size: 19px;
+          color: gray;
+        }
+        #main-text {
+          font-size: 62px;
+        }
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        button {
+          cursor: pointer;
+          display: flex;
+          gap: 8px;
+          font-size: large;
+          border-radius: 8px;
+          background-color: #582066;
+          padding: 16px;
+          color: white;
+        }
+        span {
+          color: gray;
+          font-size: 19px;
+        }
+      }
+    }
+    .line {
+      width: 100%;
+      height: 2px;
+      background-color: #f1f1f2;
+      margin: 30px 0;
+    }
+  }
+  #logos {
+    margin: 50px 0;
+    .container {
+      width: 70%;
+      margin: 0px auto;
+      .logos {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .logo {
+          width: 100%;
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .line {
+      width: 100%;
+      height: 2px;
+      background-color: #f1f1f2;
+      margin: 10px 0;
+    }
+  }
+  #info-content {
+    .container {
+      width: 70%;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+      h2 {
+        font-size: 40px;
+        font-weight: 600;
+        width: 70%;
+      }
+      p {
+        width: 70%;
+        font-size: 25px;
+        color: gray;
+      }
+      span a {
+        font-size: 20px;
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+  #info-text {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    .cards-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h3 {
+          font-size: 20px;
+        }
+        span {
+          font-size: 18px;
+          color: gray;
+        }
+      }
+    }
+  }
+  #elevating-card {
+    .container {
+      margin: 50px 0;
+      padding: 20px;
+      /* width: 70%; */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h2 {
+        font-size: 30px;
+        font-weight: 600;
+        width: 40%;
+      }
+      p {
+        font-size: 20px;
+        color: gray;
+        width: 40%;
+      }
+      span {
+        text-align: center;
+        a {
+          font-size: 18px;
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
+  }
+  #reports {
+    .container {
+      width: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 30px auto;
+      .cards-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-between;
+        gap: 10px;
+        .card {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          h2 {
+            white-space: nowrap;
+
+            color: #582066;
+            font-size: 48px;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 600;
+          }
+          span {
+            font-size: 16px;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+  #avatar {
+    .container {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin: 50px auto;
+      text-align: center;
+      span {
+        width: 70%;
+        font-size: 30px;
+        font-weight: 500;
+      }
+    }
+  }
+  #unlock-card {
+    .container {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 50px auto;
+      text-align: center;
+      gap: 30px;
+      p {
+        font-size: 40px;
+        font-weight: 600;
+        width: 70%;
+      }
+      .buttons {
+        display: flex;
+        gap: 6px;
+        #card {
+          background-color: #582066;
+          color: white;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 16px;
+          border-radius: 8px;
+        }
+        #support {
+          background-color: #eeefef;
+          color: #5a6475;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 16px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+  #modelUI {
+    .container {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 50px auto;
+      text-align: center;
+      gap: 20px;
+      h2 {
+        font-size: 35px;
+      }
+      span {
+        color: gray;
+        width: 70%;
+        font-size: 22px;
+      }
+    }
+    .line {
+      width: 100%;
+      height: 3px;
+      background-color: #f1f1f2;
+    }
+  }
+}
+#footer {
+  .container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    .card-wrappers {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          li a {
+            color: black;
+          }
+        }
+      }
+    }
+    .end {
+      margin: 50px auto;
+      text-align: center;
+      .icons {
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        .fa-brands {
+          font-size: 20px;
+        }
+      }
+      .text {
+        span {
+          color: gray;
+        }
+      }
+    }
+  }
+}
